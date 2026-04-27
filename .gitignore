@@ -1,0 +1,13 @@
+.venv/
+
+# AtCoder generated input/output and sample test directories
+in/
+out/
+tests/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Rust
+target/
