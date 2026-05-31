@@ -30,6 +30,7 @@ def main():
         dist[d][hub] = 0
         dist[hub][d] = airport_time
 
+    ## Floyd-Warshall 法
     for mid in range(v):
         dist_mid = dist[mid]
         for i in range(v):
